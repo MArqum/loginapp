@@ -1,0 +1,33 @@
+/* navbar.component.css */
+.navbar {
+  background-color: #007bff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar .navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center; /* Center nav links horizontally */
+  flex: 1; /* Take remaining space */
+}
+
+.navbar .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out; /* Add transition for transform */
+}
+
+.navbar .nav-item .nav-link:hover {
+  text-decoration: underline;
+  transform: translateY(-2px); /* Apply slight pop effect */
+}

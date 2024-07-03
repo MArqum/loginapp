@@ -1,0 +1,28 @@
+/* home.component.css */
+.container {
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  margin-right: 1rem; /* Adjust margin as needed */
+}
+
+.image-container {
+  flex-shrink: 0; /* Prevents image from shrinking */
+  width: 150px; /* Increase width of image container */
+  height: 150px; /* Increase height of image container */
+  border-radius: 50%; /* Makes container circular */
+  overflow: hidden; /* Ensures image is clipped to circle */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow effect */
+}
+
+.profile-image {
+  width: 100%; /* Ensures image fills container */
+  height: auto; /* Maintains aspect ratio */
+}
